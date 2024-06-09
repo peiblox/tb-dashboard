@@ -1,5 +1,12 @@
 # Yellow cabs trips data dashboard
 
+## Stack
+
+- [Next.js](https://nextjs.org/)
+- [Material UI](https://mui.com/)
+- [Tinybird](https://www.tinybird.co/)
+- [Jest](https://jestjs.io/)
+
 ## Getting Started
 
 To get started, you need to have Node.js installed on your machine. You can download it from [here](https://nodejs.org/).
