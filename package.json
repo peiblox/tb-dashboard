@@ -1,0 +1,42 @@
+{
+  "name": "tb-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@mui/material-nextjs": "^5.15.11",
+    "@mui/x-charts": "^7.6.2",
+    "@mui/x-date-pickers": "^7.6.2",
+    "dayjs": "^1.11.11",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5"
+  }
+}
