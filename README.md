@@ -54,13 +54,15 @@ In addition, I've noticed that there were some rows with data that would not be 
 
 For this I had some doubts at first because I wanted a nice UI but I didn't want to spend too much doing styles and layout.
 
-At last, I've decided to go for [Material UI](https://mui.com/). It has a lot of prebuild components and charts that I could use to display the data in a nice way.
+At last, I've decided to go for [Material UI](https://mui.com/). It has a lot of prebuilt components and charts that I could use to display the data in a nice way.
 
 The result is a simple dashboard with some cards displaying the key data (total trips, average trip price, average trip duration and average trip distance) and a few charts displaying the data in a more visual way.
 
+![Dashboard](./docs/dashboard.png)
+
 The first chart is a bar chart that displays the trip cost by intervals. The second chart is a pie chart that displays the payment methods used in the trips.
 
-Also, in the top of the page, there is a date picker that allows the user to filter the data by date. When the used selects a date range, the data is fetched again and the dashboard is updated.
+Also, in the top of the page, there is a date picker that allows the user to filter the data by date. When the user selects a date range, the data is fetched again and the dashboard is updated.
 
 You can use the "Share this report" button, to copy the URL with the selected date range to share with someone else.
 
